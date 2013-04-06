@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="search" method="update">
+    <name>Search - Google Search Appliance</name>
+    <author>Aaron Averett - Bureau of Economic Geology</author>
+    <creationDate>April 26, 2011</creationDate>
+    <copyright>2011 Texas Bureau of Economic Geology, The University of Texas at Austin</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>aaron.averett@beg.utexas.edu</authorEmail>
+    <authorUrl>http://www.beg.utexas.edu/</authorUrl>
+    <version>1.5</version>
+    <description>Allows searching within collections on a Google Search Appliance or Google Mini.</description>
+    <files>
+        <filename plugin="gsasearch">gsasearch.php</filename>
+    </files>
+    <params>
+		<param name="gsa_address" type="text" default="gsa.mydomain.org" label="GSA Full Hostname" description="The full host name for the Google Search Appliance." />
+		<param name="frontend_name" type="text" default="default_frontend" label="GSA Frontend" description="The frontend on the GSA to be used for searching." />
+		<param name="result_count" type="text" default="30" label="Max Result Size" description="This is the maximum size of the result set that will be returned from the GSA" />
+		<param name="search_source_name" type="text" default="Google Search Appliance" description="This is shown as the source within the Joomla instance of the search results." />
+		<param name="collection" type="text" default="" label="Collection" description="This is the collection within the search appliance index that should be searched." />
+		<param name="gsa_username" type="text" default="" label="GSA Username" description="The username to use for secured Google Search Appliances" />
+		<param name="gsa_password" type="text" default="" label="GSA Password" description="The password to use for secured Google Search Appliances" />
+	</params>
+</install>

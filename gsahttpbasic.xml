@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD plugin 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="system" method="update">
+    <name>GSA Basic Authentication Handler</name>
+    <author>Aaron Averett - Bureau of Economic Geology</author>
+    <creationDate>April 5, 2013</creationDate>
+    <copyright>2013 Texas Bureau of Economic Geology, The University of Texas at Austin</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>aaron.averett@beg.utexas.edu</authorEmail>
+    <authorUrl>http://www.beg.utexas.edu/</authorUrl>
+    <version>1.5</version>
+    <description>Allows a Google Search Appliance, which cannot properly log into Joomla, to provide credentials for a user account.</description>
+    <files>
+        <filename plugin="gsahttpbasic">gsahttpbasic.php</filename>
+    </files>
+</install>
